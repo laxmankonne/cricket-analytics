@@ -64,3 +64,4 @@ def get_filter_options(matches_df):
     teams = sorted(list(set(matches_df['team1'].dropna()).union(set(matches_df['team2'].dropna()))))
     venues = sorted(matches_df['venue'].dropna().unique().tolist())
     return seasons, teams, venues
+

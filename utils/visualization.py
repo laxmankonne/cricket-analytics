@@ -48,13 +48,13 @@ def apply_custom_theme(fig, title="", height=450):
             gridcolor=COLOR_GRID,
             zerolinecolor=COLOR_GRID,
             tickfont=dict(color=COLOR_MUTED),
-            titlefont=dict(color=COLOR_TEXT)
+            title_font=dict(color=COLOR_TEXT)
         ),
         yaxis=dict(
             gridcolor=COLOR_GRID,
             zerolinecolor=COLOR_GRID,
             tickfont=dict(color=COLOR_MUTED),
-            titlefont=dict(color=COLOR_TEXT)
+            title_font=dict(color=COLOR_TEXT)
         )
     )
     return fig
@@ -210,3 +210,4 @@ def create_worm_chart(df_inns1, df_inns2, team1_name, team2_name, title="Innings
         hovermode="x unified"
     )
     return apply_custom_theme(fig, title, height)
+

@@ -124,3 +124,4 @@ with tab3:
     )
     fig_eras.update_layout(paper_bgcolor='#111C2E', plot_bgcolor='#111C2E', font=dict(color='#F8FAFC'))
     st.plotly_chart(fig_eras, use_container_width=True)
+

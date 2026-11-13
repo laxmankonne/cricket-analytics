@@ -101,3 +101,4 @@ def get_bowler_season_breakdown(deliv_df, player_name):
     season_stats['economy'] = np.where(exact_overs > 0, (season_stats['runs'] / exact_overs).round(2), 0.0)
     season_stats['average'] = np.where(season_stats['wickets'] > 0, (season_stats['runs'] / season_stats['wickets']).round(2), np.nan)
     return season_stats.sort_values(by='season').reset_index(drop=True)
+

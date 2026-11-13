@@ -106,3 +106,4 @@ def get_closest_finishes(matches_df, top_n=10):
     wickets_close = matches_df[(matches_df['result'] == 'wickets') & (matches_df['result_margin'] == 1)].sort_values(by='date', ascending=False)
     ties = matches_df[matches_df['result'] == 'tie'].sort_values(by='date', ascending=False)
     return runs_close.head(top_n), wickets_close.head(top_n), ties
+

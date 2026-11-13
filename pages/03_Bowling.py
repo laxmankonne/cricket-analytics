@@ -176,3 +176,4 @@ else:
                         title=f"{selected_bowler}: Economy Rate Trend by Season"
                     )
                     st.plotly_chart(fig_b_econ, use_container_width=True)
+

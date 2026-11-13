@@ -105,3 +105,4 @@ def get_toss_impact_analysis(matches_df, team=None):
         'toss_win_pct': toss_winner_win_pct,
         'decision_breakdown': merged_decision
     }
+

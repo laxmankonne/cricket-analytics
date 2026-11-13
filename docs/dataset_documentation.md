@@ -94,3 +94,4 @@ The downloaded Cricsheet `ipl_csv2.zip` archive contains 2,489 files:
    Merged ground name variants (e.g., `M Chinnaswamy Stadium, Bangalore` $\rightarrow$ `M Chinnaswamy Stadium, Bengaluru`, `Feroz Shah Kotla` $\rightarrow$ `Arun Jaitley Stadium, Delhi`).
 3. **MCC Rule Conformance on Bowler Runs:**
    Byes and Leg-byes are explicitly excluded from `bowler_runs` calculations in strict accordance with Law 21 & Law 22 of the MCC Laws of Cricket.
+

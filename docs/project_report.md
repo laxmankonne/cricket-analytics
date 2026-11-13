@@ -257,3 +257,4 @@ The **Cricket Data Analysis and Interactive Visualization Platform (CricAnalytic
 3. Cricsheet Project (2024). Open Cricket Data Repository. Retrieved from: `https://cricsheet.org/`
 4. McKinney, W. (2010). "Data Structures for Statistical Computing in Python." *Proceedings of the 9th Python in Science Conference*, 51-56.
 5. Streamlit Documentation (2024). Multi-Page Applications and Caching Architecture. Retrieved from: `https://docs.streamlit.io/`
+

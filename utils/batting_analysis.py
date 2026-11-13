@@ -114,3 +114,4 @@ def get_player_innings_scores(deliv_df, player_name):
         sixes=('is_six', 'sum')
     ).reset_index()
     return inns
+

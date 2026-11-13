@@ -227,3 +227,4 @@ else:
                 )
                 fig_hist.update_layout(paper_bgcolor='#111C2E', plot_bgcolor='#111C2E', font=dict(color='#F8FAFC'))
                 st.plotly_chart(fig_hist, use_container_width=True)
+

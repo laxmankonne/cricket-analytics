@@ -170,3 +170,4 @@ def predict_match_outcome(model_pipeline, team1, team2, venue, toss_winner, toss
         'team2_prob': prob_team2,
         'confidence': max(prob_team1, prob_team2)
     }
+

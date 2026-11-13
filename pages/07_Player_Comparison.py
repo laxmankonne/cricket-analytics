@@ -159,3 +159,4 @@ with tab_radar:
         title=f"Skill Footprint: {player1} vs {player2}"
     )
     st.plotly_chart(fig_radar, use_container_width=True)
+

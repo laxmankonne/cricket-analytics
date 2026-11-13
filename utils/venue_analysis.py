@@ -48,3 +48,4 @@ def get_venue_team_records(matches_df, venue_name):
         })
 
     return pd.DataFrame(records).sort_values(by='wins', ascending=False).reset_index(drop=True)
+

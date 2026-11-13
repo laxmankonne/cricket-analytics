@@ -185,3 +185,4 @@
   2. Ball-tracking trajectory heatmaps (pitch maps and wagon wheels).
   3. Deep reinforcement learning player auction valuation modeling.
   4. Computer vision automated highlight extraction.
+

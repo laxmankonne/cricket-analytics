@@ -1,0 +1,22 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# Raw archive (can be re-downloaded via scripts/acquire_and_preprocess.py)
+data/raw/ipl_csv2.zip
+
+# OS artifacts
+.DS_Store
+Thumbs.db
